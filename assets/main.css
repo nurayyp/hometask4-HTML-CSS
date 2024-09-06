@@ -485,6 +485,118 @@
     transform: scale(1.05);
   }
 
+  .newsletter-section {
+    background-color: #ff5e15;
+    color: white;
+    text-align: left;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .newsletter-content{
+    width: 70%;
+    text-align: left;
+  }
+  
+  .newsletter-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .newsletter-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+    background: none;
+    color: white;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+
+  .footer {
+    background-color: rgb(85, 82, 82);
+    color: white;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    width: 20%;
+  }
+  
+  .footer-column img {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h3 {
+    color:#ff5e15;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+    color: #ff5e15;
+  }
+  
+  .learn-more {
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .learn-more:hover {
+    text-decoration: underline;
+    color: #ff5e15;
+    transform: scale(1.05);
+  }
+
   @media (max-width: 768px) {
     .hero__title {
       font-size: 36px;
