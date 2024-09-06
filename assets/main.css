@@ -1,0 +1,132 @@
+.slider {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .slider__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .slider__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  
+  .slider__title {
+    font-size: 36px;
+    text-shadow: 2px 2px 4px black;
+  }
+
+  .slider__control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .slider__control--left {
+    left: 20px;
+  }
+  
+  .slider__control--right {
+    right: 20px;
+  }
+  
+  .slider__control:hover {
+    background-color: #ff5e15;
+  }
+  
+  .slider__dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+  }
+  
+  .slider__dot {
+    width: 10px;
+    height: 10px;
+    background-color:white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .slider__dot:hover, .slider__dot.active {
+    background-color: black;
+  }
+
+.hero {
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero__title {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .hero__subtitle {
+    font-size: 24px;
+    color: black;
+  }
+  .services {
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .services__title {    
+    color: #ff5e15 ;
+    font-size: 32px;
+  }
+  
+  .service-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .service-box h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .service-box p {
+    font-size: 16px;
+    color: gray;
+  }
+  @media (max-width: 768px) {
+    .hero__title {
+      font-size: 36px;
+    }
+    
+    .hero__subtitle {
+      font-size: 18px;
+    }
+  
+    .service-box {
+      margin-bottom: 20px;
+    }
+  }  
